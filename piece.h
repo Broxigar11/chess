@@ -29,6 +29,11 @@ struct Position {
         this->x = x;
         this->y = y;
     }
+
+    bool operator==(const Position& rhs) {
+        return this->x == rhs.x && this->y == rhs.y;
+    }
+
 };
 
 class Piece {

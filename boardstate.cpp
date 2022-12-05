@@ -8,6 +8,41 @@ BoardState::BoardState()
     placePieces();
 }
 
+std::vector<Position> BoardState::getLegalMoves(Position position) {
+
+    switch ()
+};
+
+uint8_t BoardState::findPieceByPosition(Position position) {
+    for (int i = 0; i < pieces.size(); i++) {
+        if (pieces.at(i).getPosition() == position) {
+            return i;
+        }
+    }
+
+    return 255;
+};
+
+bool BoardState::isMovableHorizontalyAndVerticaly(Type type) {
+    return type == ROOK || type == QUEEN;
+};
+
+bool BoardState::isMovableDiagonaly(Type type) {
+    return type == BISHOP || type == QUEEN;
+};
+
+bool BoardState::isKnight(Type type) {
+    return type == KNIGHT;
+};
+
+bool BoardState::isPawn(Type type) {
+    return type == PAWN;
+};
+
+bool BoardState::isKing(Type type) {
+    return type == KING;
+};
+
 void BoardState::placePieces() {
     pieces.push_back(Piece(ROOK, WHITE, Position(0, 0)));
     pieces.push_back(Piece(KNIGHT, WHITE, Position(1, 0)));
