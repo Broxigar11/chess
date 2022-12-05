@@ -44,7 +44,7 @@ public:
     Color getColor() const;
     Type getType() const;
     Position getPosition() const;
-    bool getMoved() const;
+    bool wasMoved() const;
 
     void setPosition(Position p);
     void incrementMoves();

@@ -23,7 +23,7 @@ Position Piece::getPosition() const {
     return position;
 }
 
-bool Piece::getMoved() const {
+bool Piece::wasMoved() const {
     return moves > 0;
 }
 
