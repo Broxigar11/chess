@@ -32,6 +32,7 @@ private:
 
     void placePieces();
 
+    bool isPositionOutOfBounds(Position position);
 
 
 };
