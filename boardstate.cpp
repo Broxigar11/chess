@@ -7,11 +7,6 @@ BoardState::BoardState(Color player1Color)
     placePieces();
 }
 
-//std::vector<Piece> getPieces(){
-//    return pieces
-//};
-
-
 std::vector<Position> BoardState::getLegalMoves(Position position) {
     uint8_t piece_i = findPieceByPosition(position);
     std::vector<Position> legalMoves;
@@ -42,6 +37,18 @@ std::vector<Position> BoardState::getLegalMoves(Position position) {
     }
     }
     return legalMoves;
+};
+
+Piece BoardState::movePiece(Position from, Position to){
+    uint8_t movedPiece = findPieceByPosition(from);
+    uint8_t capturedI = findPieceByPosition(to);
+    pieces.at(movedPiece).setPosition(to);
+    pieces.at(movedPiece).incrementMoves();
+    Piece piece = pieces.at(movedPiece);
+    if(capturedI < 50) {
+        pieces.erase(pieces.begin() + capturedI);
+    }
+    return piece;
 };
 
 std::vector<Position> BoardState::getPawnMoves(uint8_t piece_i) {
@@ -103,7 +110,7 @@ std::vector<Position> BoardState::getRookMoves(uint8_t piece_i) {
     Piece piece = pieces.at(piece_i);
     Position position = piece.getPosition();
 
-    for(int8_t i = position.x; i >= 0; i--) {
+    for(int8_t i = position.x-1; i >= 0; i--) {
         Position observedPosition = Position(i, position.y);
         if (!isPositionOccupied(observedPosition)) {
             moves.push_back(observedPosition);
@@ -114,7 +121,7 @@ std::vector<Position> BoardState::getRookMoves(uint8_t piece_i) {
             break;
         }
     }
-    for(int8_t i = position.x; i < 8; i++) {
+    for(int8_t i = position.x+1; i < 8; i++) {
         Position observedPosition = Position(i, position.y);
         if (!isPositionOccupied(observedPosition)) {
             moves.push_back(observedPosition);
@@ -125,7 +132,7 @@ std::vector<Position> BoardState::getRookMoves(uint8_t piece_i) {
             break;
         }
     }
-    for(int8_t j = position.y; j >= 0; j--) {
+    for(int8_t j = position.y-1; j >= 0; j--) {
         Position observedPosition = Position(position.x, j);
         if (!isPositionOccupied(observedPosition)) {
             moves.push_back(observedPosition);
@@ -136,7 +143,7 @@ std::vector<Position> BoardState::getRookMoves(uint8_t piece_i) {
             break;
         }
     }
-    for(int8_t j = position.x; j < 8; j++) {
+    for(int8_t j = position.x+1; j < 8; j++) {
         Position observedPosition = Position(position.x, j);
         if (!isPositionOccupied(observedPosition)) {
             moves.push_back(observedPosition);
@@ -217,12 +224,12 @@ std::vector<Position> BoardState::getKingMoves(uint8_t piece_i) {
 
 
 bool BoardState::isPositionOccupied(Position position) {
-    return findPieceByPosition(position) < 8;
+    return findPieceByPosition(position) < 50;
 }
 
 bool BoardState::isActualPlayersPiece(Color color, Position position) {
     uint8_t i = findPieceByPosition(position);
-    return (i < 8) && (pieces.at(i).getColor() == color);
+    return i < 50 && pieces.at(i).getColor() == color;
 };
 
 bool BoardState::isPieceAtPositionCapturableWithPiece(Piece piece, Position position) {
@@ -231,12 +238,13 @@ bool BoardState::isPieceAtPositionCapturableWithPiece(Piece piece, Position posi
 
 uint8_t BoardState::findPieceByPosition(Position position) {
     for (int8_t i = 0; i < pieces.size(); i++) {
-        if (pieces.at(i).getPosition() == position) {
+        if (pieces.at(i).getPosition().x == position.x
+                && pieces.at(i).getPosition().y == position.y) {
             return i;
         }
     }
 
-    return 10;
+    return 200;
 };
 
 

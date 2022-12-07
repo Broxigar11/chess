@@ -12,7 +12,7 @@ public:
     std::vector<Position> getLegalMoves(Position position);
     bool isPositionOccupied(Position position);
     bool isActualPlayersPiece(Color color, Position position);
-    std::vector<Piece> getPieces();
+    Piece movePiece(Position from, Position to);
 
 private:
     std::vector<Piece> pieces;

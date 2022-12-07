@@ -29,8 +29,10 @@ private:
     bool isClicked = 0;
 
     Position findSquarePosition(QClickableLabel* square);
+    void movePiece(Position from, Position to);
     void initialize_board(Color player1Color);
     void drawPiece(Piece piece);
+    void erasePiece(Position position);
     void drawPossibleMoves();
     void erasePossibleMoves();
 

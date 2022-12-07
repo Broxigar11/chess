@@ -11,7 +11,7 @@ MainWindow::MainWindow(QWidget *parent)
 
     initialize_board(player1Color);
 
-
+    qInfo() << boardState->isPositionOccupied(Position(0, 0));
 }
 
 
@@ -40,15 +40,15 @@ void MainWindow::initialize_board(Color player1Color){
     uint8_t whitePawnI;
 
     if (player1Color == BLACK) {
-        blackPieceI = 0;
-        blackPawnI = 1;
-        whitePieceI = 7;
-        whitePawnI = 6;
-    } else {
         blackPieceI = 7;
         blackPawnI = 6;
         whitePieceI = 0;
         whitePawnI = 1;
+    } else {
+        blackPieceI = 0;
+        blackPawnI = 1;
+        whitePieceI = 7;
+        whitePawnI = 6;
     }
 
     for (uint8_t i = 0; i < 8; i++) {
@@ -70,6 +70,13 @@ Position MainWindow::findSquarePosition(QClickableLabel* square) {
         }
     }
     return Position(10, 10);
+}
+
+void MainWindow::movePiece(Position from, Position to) {
+    Piece piece = boardState->movePiece(from, to);
+    drawPiece(piece);
+    erasePiece(from);
+    currentPlayersTurn = currentPlayersTurn == WHITE ? BLACK : WHITE;
 }
 
 void MainWindow::drawPiece(Piece piece) {
@@ -105,6 +112,11 @@ void MainWindow::drawPiece(Piece piece) {
                         .scaled(39,39, Qt::KeepAspectRatio, Qt::FastTransformation));
 }
 
+void MainWindow::erasePiece(Position position) {
+    QPixmap pixmap;
+    board[position.x][position.y]->setPixmap(pixmap);
+}
+
 void MainWindow::drawPossibleMoves() {
     for (Position position : possibleMoves) {
         if (!boardState->isPositionOccupied(position)) {
@@ -127,9 +139,10 @@ void MainWindow::SquarePressed() {
 
     if (isClicked) {
         if (std::count(possibleMoves.begin(), possibleMoves.end(), thisPosition) > 0) {
-            //move
-
-            //delete if opponents piece
+            erasePossibleMoves();
+            movePiece(clickedPiecePosition, thisPosition);
+            isClicked = false;
+            possibleMoves.clear();
         } else {
             if (boardState->isActualPlayersPiece(currentPlayersTurn, thisPosition)) {
                 erasePossibleMoves();
@@ -143,7 +156,7 @@ void MainWindow::SquarePressed() {
                 possibleMoves.clear();
             }
         }
-    } else if (boardState->isPositionOccupied(thisPosition)) {
+    } else if (boardState->isActualPlayersPiece(currentPlayersTurn, thisPosition)) {
         isClicked = true;
         clickedPiecePosition = thisPosition;
         possibleMoves = boardState->getLegalMoves(thisPosition);
