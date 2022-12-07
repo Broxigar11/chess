@@ -143,7 +143,7 @@ std::vector<Position> BoardState::getRookMoves(uint8_t piece_i) {
             break;
         }
     }
-    for(int8_t j = position.x+1; j < 8; j++) {
+    for(int8_t j = position.y+1; j < 8; j++) {
         Position observedPosition = Position(position.x, j);
         if (!isPositionOccupied(observedPosition)) {
             moves.push_back(observedPosition);
@@ -219,6 +219,17 @@ std::vector<Position> BoardState::getQueenMoves(uint8_t piece_i) {
 
 std::vector<Position> BoardState::getKingMoves(uint8_t piece_i) {
     std::vector<Position> moves;
+    Piece piece = pieces.at(piece_i);
+    Position position = piece.getPosition();
+    for (uint8_t i = -1; i < 2; i++) {
+        for (uint8_t j = -1; j < 2; j++) {
+            Position observedPosition = Position(position.x+i, position.x+j);
+             if (!isPositionOutOfBounds(observedPosition) && !isActualPlayersPiece(piece.getColor(), observedPosition)) {
+                 moves.push_back(observedPosition);
+             }
+        }
+    }
+
     return moves;
 };
 

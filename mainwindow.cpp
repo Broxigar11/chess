@@ -131,6 +131,17 @@ void MainWindow::erasePossibleMoves() {
     for (Position position : possibleMoves) {
         board[position.x][position.y]->setStyleSheet("");
     }
+    for (uint8_t j = 0; j < 8; j++) {
+        bool isLight = j%2==0;
+        for (uint8_t i = 0; i < 8; i++) {
+            if (i != 0) {
+                isLight = !isLight;
+            }
+            QString styleSheet = QLatin1String("background-color: ");
+            styleSheet += QLatin1String((isLight ? "#f5d1a9;" : "#a36846;"));
+            board[i][j]->setStyleSheet(styleSheet);
+        }
+    }
 }
 
 void MainWindow::SquarePressed() {

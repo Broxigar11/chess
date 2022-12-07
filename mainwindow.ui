@@ -54,8 +54,8 @@
       </property>
       <property name="maximumSize">
        <size>
-        <width>320</width>
-        <height>320</height>
+        <width>330</width>
+        <height>330</height>
        </size>
       </property>
       <property name="styleSheet">
@@ -76,21 +76,21 @@
          <item row="2" column="7">
           <widget class="QClickableLabel" name="A6">
            <property name="sizePolicy">
-            <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
              <horstretch>0</horstretch>
              <verstretch>0</verstretch>
             </sizepolicy>
            </property>
            <property name="minimumSize">
             <size>
-             <width>0</width>
-             <height>0</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="maximumSize">
             <size>
-             <width>2342</width>
-             <height>2352</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="baseSize">
@@ -119,21 +119,21 @@
          <item row="3" column="7">
           <widget class="QClickableLabel" name="A5">
            <property name="sizePolicy">
-            <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
              <horstretch>0</horstretch>
              <verstretch>0</verstretch>
             </sizepolicy>
            </property>
            <property name="minimumSize">
             <size>
-             <width>0</width>
-             <height>0</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="maximumSize">
             <size>
-             <width>2342</width>
-             <height>2352</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="baseSize">
@@ -161,21 +161,21 @@
          <item row="3" column="10">
           <widget class="QClickableLabel" name="D5">
            <property name="sizePolicy">
-            <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
              <horstretch>0</horstretch>
              <verstretch>0</verstretch>
             </sizepolicy>
            </property>
            <property name="minimumSize">
             <size>
-             <width>0</width>
-             <height>0</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="maximumSize">
             <size>
-             <width>2342</width>
-             <height>2352</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="baseSize">
@@ -204,21 +204,21 @@
          <item row="2" column="12">
           <widget class="QClickableLabel" name="F6">
            <property name="sizePolicy">
-            <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
              <horstretch>0</horstretch>
              <verstretch>0</verstretch>
             </sizepolicy>
            </property>
            <property name="minimumSize">
             <size>
-             <width>0</width>
-             <height>0</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="maximumSize">
             <size>
-             <width>2342</width>
-             <height>2352</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="baseSize">
@@ -246,21 +246,21 @@
          <item row="4" column="9">
           <widget class="QClickableLabel" name="C4">
            <property name="sizePolicy">
-            <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
              <horstretch>0</horstretch>
              <verstretch>0</verstretch>
             </sizepolicy>
            </property>
            <property name="minimumSize">
             <size>
-             <width>0</width>
-             <height>0</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="maximumSize">
             <size>
-             <width>2342</width>
-             <height>2352</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="baseSize">
@@ -289,21 +289,21 @@
          <item row="4" column="13">
           <widget class="QClickableLabel" name="G4">
            <property name="sizePolicy">
-            <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
              <horstretch>0</horstretch>
              <verstretch>0</verstretch>
             </sizepolicy>
            </property>
            <property name="minimumSize">
             <size>
-             <width>0</width>
-             <height>0</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="maximumSize">
             <size>
-             <width>2342</width>
-             <height>2352</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="baseSize">
@@ -332,21 +332,21 @@
          <item row="6" column="7">
           <widget class="QClickableLabel" name="A2">
            <property name="sizePolicy">
-            <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
              <horstretch>0</horstretch>
              <verstretch>0</verstretch>
             </sizepolicy>
            </property>
            <property name="minimumSize">
             <size>
-             <width>0</width>
-             <height>0</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="maximumSize">
             <size>
-             <width>2342</width>
-             <height>2352</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="baseSize">
@@ -375,21 +375,21 @@
          <item row="2" column="8">
           <widget class="QClickableLabel" name="B6">
            <property name="sizePolicy">
-            <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
              <horstretch>0</horstretch>
              <verstretch>0</verstretch>
             </sizepolicy>
            </property>
            <property name="minimumSize">
             <size>
-             <width>0</width>
-             <height>0</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="maximumSize">
             <size>
-             <width>2342</width>
-             <height>2352</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="baseSize">
@@ -417,21 +417,21 @@
          <item row="0" column="11">
           <widget class="QClickableLabel" name="E8">
            <property name="sizePolicy">
-            <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
              <horstretch>0</horstretch>
              <verstretch>0</verstretch>
             </sizepolicy>
            </property>
            <property name="minimumSize">
             <size>
-             <width>0</width>
-             <height>0</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="maximumSize">
             <size>
-             <width>2342</width>
-             <height>2352</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="baseSize">
@@ -460,21 +460,21 @@
          <item row="2" column="9">
           <widget class="QClickableLabel" name="C6">
            <property name="sizePolicy">
-            <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
              <horstretch>0</horstretch>
              <verstretch>0</verstretch>
             </sizepolicy>
            </property>
            <property name="minimumSize">
             <size>
-             <width>0</width>
-             <height>0</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="maximumSize">
             <size>
-             <width>2342</width>
-             <height>2352</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="baseSize">
@@ -503,21 +503,21 @@
          <item row="0" column="12">
           <widget class="QClickableLabel" name="F8">
            <property name="sizePolicy">
-            <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
              <horstretch>0</horstretch>
              <verstretch>0</verstretch>
             </sizepolicy>
            </property>
            <property name="minimumSize">
             <size>
-             <width>0</width>
-             <height>0</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="maximumSize">
             <size>
-             <width>2342</width>
-             <height>2352</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="baseSize">
@@ -545,21 +545,21 @@
          <item row="3" column="12">
           <widget class="QClickableLabel" name="F5">
            <property name="sizePolicy">
-            <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
              <horstretch>0</horstretch>
              <verstretch>0</verstretch>
             </sizepolicy>
            </property>
            <property name="minimumSize">
             <size>
-             <width>0</width>
-             <height>0</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="maximumSize">
             <size>
-             <width>2342</width>
-             <height>2352</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="baseSize">
@@ -588,21 +588,21 @@
          <item row="7" column="14">
           <widget class="QClickableLabel" name="H1">
            <property name="sizePolicy">
-            <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
              <horstretch>0</horstretch>
              <verstretch>0</verstretch>
             </sizepolicy>
            </property>
            <property name="minimumSize">
             <size>
-             <width>0</width>
-             <height>0</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="maximumSize">
             <size>
-             <width>2342</width>
-             <height>2352</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="baseSize">
@@ -631,21 +631,21 @@
          <item row="1" column="12">
           <widget class="QClickableLabel" name="F7">
            <property name="sizePolicy">
-            <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
              <horstretch>0</horstretch>
              <verstretch>0</verstretch>
             </sizepolicy>
            </property>
            <property name="minimumSize">
             <size>
-             <width>0</width>
-             <height>0</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="maximumSize">
             <size>
-             <width>2342</width>
-             <height>2352</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="baseSize">
@@ -674,21 +674,21 @@
          <item row="0" column="14">
           <widget class="QClickableLabel" name="H8">
            <property name="sizePolicy">
-            <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
              <horstretch>0</horstretch>
              <verstretch>0</verstretch>
             </sizepolicy>
            </property>
            <property name="minimumSize">
             <size>
-             <width>0</width>
-             <height>0</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="maximumSize">
             <size>
-             <width>2342</width>
-             <height>2352</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="baseSize">
@@ -716,21 +716,21 @@
          <item row="2" column="14">
           <widget class="QClickableLabel" name="H6">
            <property name="sizePolicy">
-            <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
              <horstretch>0</horstretch>
              <verstretch>0</verstretch>
             </sizepolicy>
            </property>
            <property name="minimumSize">
             <size>
-             <width>0</width>
-             <height>0</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="maximumSize">
             <size>
-             <width>2342</width>
-             <height>2352</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="baseSize">
@@ -758,21 +758,21 @@
          <item row="3" column="13">
           <widget class="QClickableLabel" name="G5">
            <property name="sizePolicy">
-            <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
              <horstretch>0</horstretch>
              <verstretch>0</verstretch>
             </sizepolicy>
            </property>
            <property name="minimumSize">
             <size>
-             <width>0</width>
-             <height>0</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="maximumSize">
             <size>
-             <width>2342</width>
-             <height>2352</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="baseSize">
@@ -800,21 +800,21 @@
          <item row="0" column="13">
           <widget class="QClickableLabel" name="G8">
            <property name="sizePolicy">
-            <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
              <horstretch>0</horstretch>
              <verstretch>0</verstretch>
             </sizepolicy>
            </property>
            <property name="minimumSize">
             <size>
-             <width>0</width>
-             <height>0</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="maximumSize">
             <size>
-             <width>2342</width>
-             <height>2352</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="baseSize">
@@ -843,21 +843,21 @@
          <item row="4" column="12">
           <widget class="QClickableLabel" name="F4">
            <property name="sizePolicy">
-            <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
              <horstretch>0</horstretch>
              <verstretch>0</verstretch>
             </sizepolicy>
            </property>
            <property name="minimumSize">
             <size>
-             <width>0</width>
-             <height>0</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="maximumSize">
             <size>
-             <width>2342</width>
-             <height>2352</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="baseSize">
@@ -885,21 +885,21 @@
          <item row="5" column="14">
           <widget class="QClickableLabel" name="H3">
            <property name="sizePolicy">
-            <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
              <horstretch>0</horstretch>
              <verstretch>0</verstretch>
             </sizepolicy>
            </property>
            <property name="minimumSize">
             <size>
-             <width>0</width>
-             <height>0</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="maximumSize">
             <size>
-             <width>2342</width>
-             <height>2352</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="baseSize">
@@ -928,21 +928,21 @@
          <item row="5" column="9">
           <widget class="QClickableLabel" name="C3">
            <property name="sizePolicy">
-            <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
              <horstretch>0</horstretch>
              <verstretch>0</verstretch>
             </sizepolicy>
            </property>
            <property name="minimumSize">
             <size>
-             <width>0</width>
-             <height>0</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="maximumSize">
             <size>
-             <width>2342</width>
-             <height>2352</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="baseSize">
@@ -970,21 +970,21 @@
          <item row="1" column="10">
           <widget class="QClickableLabel" name="D7">
            <property name="sizePolicy">
-            <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
              <horstretch>0</horstretch>
              <verstretch>0</verstretch>
             </sizepolicy>
            </property>
            <property name="minimumSize">
             <size>
-             <width>0</width>
-             <height>0</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="maximumSize">
             <size>
-             <width>2342</width>
-             <height>2352</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="baseSize">
@@ -1013,21 +1013,21 @@
          <item row="5" column="7">
           <widget class="QClickableLabel" name="A3">
            <property name="sizePolicy">
-            <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
              <horstretch>0</horstretch>
              <verstretch>0</verstretch>
             </sizepolicy>
            </property>
            <property name="minimumSize">
             <size>
-             <width>0</width>
-             <height>0</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="maximumSize">
             <size>
-             <width>2342</width>
-             <height>2352</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="baseSize">
@@ -1055,21 +1055,21 @@
          <item row="2" column="11">
           <widget class="QClickableLabel" name="E6">
            <property name="sizePolicy">
-            <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
              <horstretch>0</horstretch>
              <verstretch>0</verstretch>
             </sizepolicy>
            </property>
            <property name="minimumSize">
             <size>
-             <width>0</width>
-             <height>0</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="maximumSize">
             <size>
-             <width>2342</width>
-             <height>2352</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="baseSize">
@@ -1098,21 +1098,21 @@
          <item row="2" column="10">
           <widget class="QClickableLabel" name="D6">
            <property name="sizePolicy">
-            <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
              <horstretch>0</horstretch>
              <verstretch>0</verstretch>
             </sizepolicy>
            </property>
            <property name="minimumSize">
             <size>
-             <width>0</width>
-             <height>0</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="maximumSize">
             <size>
-             <width>2342</width>
-             <height>2352</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="baseSize">
@@ -1140,21 +1140,21 @@
          <item row="4" column="8">
           <widget class="QClickableLabel" name="B4">
            <property name="sizePolicy">
-            <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
              <horstretch>0</horstretch>
              <verstretch>0</verstretch>
             </sizepolicy>
            </property>
            <property name="minimumSize">
             <size>
-             <width>0</width>
-             <height>0</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="maximumSize">
             <size>
-             <width>2342</width>
-             <height>2352</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="baseSize">
@@ -1182,21 +1182,21 @@
          <item row="3" column="8">
           <widget class="QClickableLabel" name="B5">
            <property name="sizePolicy">
-            <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
              <horstretch>0</horstretch>
              <verstretch>0</verstretch>
             </sizepolicy>
            </property>
            <property name="minimumSize">
             <size>
-             <width>0</width>
-             <height>0</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="maximumSize">
             <size>
-             <width>2342</width>
-             <height>2352</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="baseSize">
@@ -1225,21 +1225,21 @@
          <item row="7" column="7">
           <widget class="QClickableLabel" name="A1">
            <property name="sizePolicy">
-            <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
              <horstretch>0</horstretch>
              <verstretch>0</verstretch>
             </sizepolicy>
            </property>
            <property name="minimumSize">
             <size>
-             <width>0</width>
-             <height>0</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="maximumSize">
             <size>
-             <width>2342</width>
-             <height>2352</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="baseSize">
@@ -1267,21 +1267,21 @@
          <item row="5" column="12">
           <widget class="QClickableLabel" name="F3">
            <property name="sizePolicy">
-            <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
              <horstretch>0</horstretch>
              <verstretch>0</verstretch>
             </sizepolicy>
            </property>
            <property name="minimumSize">
             <size>
-             <width>0</width>
-             <height>0</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="maximumSize">
             <size>
-             <width>2342</width>
-             <height>2352</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="baseSize">
@@ -1310,21 +1310,21 @@
          <item row="3" column="14">
           <widget class="QClickableLabel" name="H5">
            <property name="sizePolicy">
-            <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
              <horstretch>0</horstretch>
              <verstretch>0</verstretch>
             </sizepolicy>
            </property>
            <property name="minimumSize">
             <size>
-             <width>0</width>
-             <height>0</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="maximumSize">
             <size>
-             <width>2342</width>
-             <height>2352</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="baseSize">
@@ -1353,21 +1353,21 @@
          <item row="3" column="9">
           <widget class="QClickableLabel" name="C5">
            <property name="sizePolicy">
-            <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
              <horstretch>0</horstretch>
              <verstretch>0</verstretch>
             </sizepolicy>
            </property>
            <property name="minimumSize">
             <size>
-             <width>0</width>
-             <height>0</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="maximumSize">
             <size>
-             <width>2342</width>
-             <height>2352</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="baseSize">
@@ -1395,21 +1395,21 @@
          <item row="1" column="14">
           <widget class="QClickableLabel" name="H7">
            <property name="sizePolicy">
-            <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
              <horstretch>0</horstretch>
              <verstretch>0</verstretch>
             </sizepolicy>
            </property>
            <property name="minimumSize">
             <size>
-             <width>0</width>
-             <height>0</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="maximumSize">
             <size>
-             <width>2342</width>
-             <height>2352</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="baseSize">
@@ -1438,21 +1438,21 @@
          <item row="0" column="8">
           <widget class="QClickableLabel" name="B8">
            <property name="sizePolicy">
-            <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
              <horstretch>0</horstretch>
              <verstretch>0</verstretch>
             </sizepolicy>
            </property>
            <property name="minimumSize">
             <size>
-             <width>0</width>
-             <height>0</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="maximumSize">
             <size>
-             <width>2342</width>
-             <height>2352</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="baseSize">
@@ -1480,21 +1480,21 @@
          <item row="1" column="7">
           <widget class="QClickableLabel" name="A7">
            <property name="sizePolicy">
-            <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
              <horstretch>0</horstretch>
              <verstretch>0</verstretch>
             </sizepolicy>
            </property>
            <property name="minimumSize">
             <size>
-             <width>0</width>
-             <height>0</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="maximumSize">
             <size>
-             <width>2342</width>
-             <height>2352</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="baseSize">
@@ -1522,21 +1522,21 @@
          <item row="0" column="7">
           <widget class="QClickableLabel" name="A8">
            <property name="sizePolicy">
-            <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
              <horstretch>0</horstretch>
              <verstretch>0</verstretch>
             </sizepolicy>
            </property>
            <property name="minimumSize">
             <size>
-             <width>0</width>
-             <height>0</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="maximumSize">
             <size>
-             <width>2342</width>
-             <height>2352</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="baseSize">
@@ -1565,21 +1565,21 @@
          <item row="0" column="10">
           <widget class="QClickableLabel" name="D8">
            <property name="sizePolicy">
-            <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
              <horstretch>0</horstretch>
              <verstretch>0</verstretch>
             </sizepolicy>
            </property>
            <property name="minimumSize">
             <size>
-             <width>0</width>
-             <height>0</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="maximumSize">
             <size>
-             <width>2342</width>
-             <height>2352</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="baseSize">
@@ -1607,21 +1607,21 @@
          <item row="5" column="11">
           <widget class="QClickableLabel" name="E3">
            <property name="sizePolicy">
-            <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
              <horstretch>0</horstretch>
              <verstretch>0</verstretch>
             </sizepolicy>
            </property>
            <property name="minimumSize">
             <size>
-             <width>0</width>
-             <height>0</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="maximumSize">
             <size>
-             <width>2342</width>
-             <height>2352</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="baseSize">
@@ -1649,21 +1649,21 @@
          <item row="7" column="10">
           <widget class="QClickableLabel" name="D1">
            <property name="sizePolicy">
-            <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
              <horstretch>0</horstretch>
              <verstretch>0</verstretch>
             </sizepolicy>
            </property>
            <property name="minimumSize">
             <size>
-             <width>0</width>
-             <height>0</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="maximumSize">
             <size>
-             <width>2342</width>
-             <height>2352</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="baseSize">
@@ -1692,21 +1692,21 @@
          <item row="1" column="11">
           <widget class="QClickableLabel" name="E7">
            <property name="sizePolicy">
-            <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
              <horstretch>0</horstretch>
              <verstretch>0</verstretch>
             </sizepolicy>
            </property>
            <property name="minimumSize">
             <size>
-             <width>0</width>
-             <height>0</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="maximumSize">
             <size>
-             <width>2342</width>
-             <height>2352</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="baseSize">
@@ -1734,21 +1734,21 @@
          <item row="7" column="11">
           <widget class="QClickableLabel" name="E1">
            <property name="sizePolicy">
-            <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
              <horstretch>0</horstretch>
              <verstretch>0</verstretch>
             </sizepolicy>
            </property>
            <property name="minimumSize">
             <size>
-             <width>0</width>
-             <height>0</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="maximumSize">
             <size>
-             <width>2342</width>
-             <height>2352</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="baseSize">
@@ -1776,21 +1776,21 @@
          <item row="4" column="14">
           <widget class="QClickableLabel" name="H4">
            <property name="sizePolicy">
-            <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
              <horstretch>0</horstretch>
              <verstretch>0</verstretch>
             </sizepolicy>
            </property>
            <property name="minimumSize">
             <size>
-             <width>0</width>
-             <height>0</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="maximumSize">
             <size>
-             <width>2342</width>
-             <height>2352</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="baseSize">
@@ -1818,21 +1818,21 @@
          <item row="1" column="8">
           <widget class="QClickableLabel" name="B7">
            <property name="sizePolicy">
-            <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
              <horstretch>0</horstretch>
              <verstretch>0</verstretch>
             </sizepolicy>
            </property>
            <property name="minimumSize">
             <size>
-             <width>0</width>
-             <height>0</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="maximumSize">
             <size>
-             <width>2342</width>
-             <height>2352</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="baseSize">
@@ -1861,21 +1861,21 @@
          <item row="6" column="11">
           <widget class="QClickableLabel" name="E2">
            <property name="sizePolicy">
-            <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
              <horstretch>0</horstretch>
              <verstretch>0</verstretch>
             </sizepolicy>
            </property>
            <property name="minimumSize">
             <size>
-             <width>0</width>
-             <height>0</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="maximumSize">
             <size>
-             <width>2342</width>
-             <height>2352</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="baseSize">
@@ -1904,21 +1904,21 @@
          <item row="7" column="12">
           <widget class="QClickableLabel" name="F1">
            <property name="sizePolicy">
-            <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
              <horstretch>0</horstretch>
              <verstretch>0</verstretch>
             </sizepolicy>
            </property>
            <property name="minimumSize">
             <size>
-             <width>0</width>
-             <height>0</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="maximumSize">
             <size>
-             <width>2342</width>
-             <height>2352</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="baseSize">
@@ -1947,21 +1947,21 @@
          <item row="7" column="13">
           <widget class="QClickableLabel" name="G1">
            <property name="sizePolicy">
-            <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
              <horstretch>0</horstretch>
              <verstretch>0</verstretch>
             </sizepolicy>
            </property>
            <property name="minimumSize">
             <size>
-             <width>0</width>
-             <height>0</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="maximumSize">
             <size>
-             <width>2342</width>
-             <height>2352</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="baseSize">
@@ -1989,21 +1989,21 @@
          <item row="1" column="9">
           <widget class="QClickableLabel" name="C7">
            <property name="sizePolicy">
-            <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
              <horstretch>0</horstretch>
              <verstretch>0</verstretch>
             </sizepolicy>
            </property>
            <property name="minimumSize">
             <size>
-             <width>0</width>
-             <height>0</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="maximumSize">
             <size>
-             <width>2342</width>
-             <height>2352</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="baseSize">
@@ -2031,21 +2031,21 @@
          <item row="0" column="9">
           <widget class="QClickableLabel" name="C8">
            <property name="sizePolicy">
-            <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
              <horstretch>0</horstretch>
              <verstretch>0</verstretch>
             </sizepolicy>
            </property>
            <property name="minimumSize">
             <size>
-             <width>0</width>
-             <height>0</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="maximumSize">
             <size>
-             <width>2342</width>
-             <height>2352</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="baseSize">
@@ -2074,21 +2074,21 @@
          <item row="7" column="9">
           <widget class="QClickableLabel" name="C1">
            <property name="sizePolicy">
-            <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
              <horstretch>0</horstretch>
              <verstretch>0</verstretch>
             </sizepolicy>
            </property>
            <property name="minimumSize">
             <size>
-             <width>0</width>
-             <height>0</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="maximumSize">
             <size>
-             <width>2342</width>
-             <height>2352</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="baseSize">
@@ -2116,21 +2116,21 @@
          <item row="2" column="13">
           <widget class="QClickableLabel" name="G6">
            <property name="sizePolicy">
-            <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
              <horstretch>0</horstretch>
              <verstretch>0</verstretch>
             </sizepolicy>
            </property>
            <property name="minimumSize">
             <size>
-             <width>0</width>
-             <height>0</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="maximumSize">
             <size>
-             <width>2342</width>
-             <height>2352</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="baseSize">
@@ -2159,21 +2159,21 @@
          <item row="6" column="8">
           <widget class="QClickableLabel" name="B2">
            <property name="sizePolicy">
-            <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
              <horstretch>0</horstretch>
              <verstretch>0</verstretch>
             </sizepolicy>
            </property>
            <property name="minimumSize">
             <size>
-             <width>0</width>
-             <height>0</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="maximumSize">
             <size>
-             <width>2342</width>
-             <height>2352</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="baseSize">
@@ -2201,21 +2201,21 @@
          <item row="5" column="13">
           <widget class="QClickableLabel" name="G3">
            <property name="sizePolicy">
-            <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
              <horstretch>0</horstretch>
              <verstretch>0</verstretch>
             </sizepolicy>
            </property>
            <property name="minimumSize">
             <size>
-             <width>0</width>
-             <height>0</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="maximumSize">
             <size>
-             <width>2342</width>
-             <height>2352</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="baseSize">
@@ -2243,21 +2243,21 @@
          <item row="1" column="13">
           <widget class="QClickableLabel" name="G7">
            <property name="sizePolicy">
-            <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
              <horstretch>0</horstretch>
              <verstretch>0</verstretch>
             </sizepolicy>
            </property>
            <property name="minimumSize">
             <size>
-             <width>0</width>
-             <height>0</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="maximumSize">
             <size>
-             <width>2342</width>
-             <height>2352</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="baseSize">
@@ -2285,21 +2285,21 @@
          <item row="4" column="7">
           <widget class="QClickableLabel" name="A4">
            <property name="sizePolicy">
-            <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
              <horstretch>0</horstretch>
              <verstretch>0</verstretch>
             </sizepolicy>
            </property>
            <property name="minimumSize">
             <size>
-             <width>0</width>
-             <height>0</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="maximumSize">
             <size>
-             <width>2342</width>
-             <height>2352</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="baseSize">
@@ -2328,21 +2328,21 @@
          <item row="6" column="14">
           <widget class="QClickableLabel" name="H2">
            <property name="sizePolicy">
-            <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
              <horstretch>0</horstretch>
              <verstretch>0</verstretch>
             </sizepolicy>
            </property>
            <property name="minimumSize">
             <size>
-             <width>0</width>
-             <height>0</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="maximumSize">
             <size>
-             <width>2342</width>
-             <height>2352</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="baseSize">
@@ -2370,21 +2370,21 @@
          <item row="6" column="13">
           <widget class="QClickableLabel" name="G2">
            <property name="sizePolicy">
-            <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
              <horstretch>0</horstretch>
              <verstretch>0</verstretch>
             </sizepolicy>
            </property>
            <property name="minimumSize">
             <size>
-             <width>0</width>
-             <height>0</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="maximumSize">
             <size>
-             <width>2342</width>
-             <height>2352</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="baseSize">
@@ -2413,21 +2413,21 @@
          <item row="7" column="8">
           <widget class="QClickableLabel" name="B1">
            <property name="sizePolicy">
-            <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
              <horstretch>0</horstretch>
              <verstretch>0</verstretch>
             </sizepolicy>
            </property>
            <property name="minimumSize">
             <size>
-             <width>0</width>
-             <height>0</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="maximumSize">
             <size>
-             <width>2342</width>
-             <height>2352</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="baseSize">
@@ -2456,21 +2456,21 @@
          <item row="6" column="9">
           <widget class="QClickableLabel" name="C2">
            <property name="sizePolicy">
-            <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
              <horstretch>0</horstretch>
              <verstretch>0</verstretch>
             </sizepolicy>
            </property>
            <property name="minimumSize">
             <size>
-             <width>0</width>
-             <height>0</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="maximumSize">
             <size>
-             <width>2342</width>
-             <height>2352</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="baseSize">
@@ -2499,21 +2499,21 @@
          <item row="6" column="10">
           <widget class="QClickableLabel" name="D2">
            <property name="sizePolicy">
-            <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
              <horstretch>0</horstretch>
              <verstretch>0</verstretch>
             </sizepolicy>
            </property>
            <property name="minimumSize">
             <size>
-             <width>0</width>
-             <height>0</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="maximumSize">
             <size>
-             <width>2342</width>
-             <height>2352</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="baseSize">
@@ -2541,21 +2541,21 @@
          <item row="5" column="8">
           <widget class="QClickableLabel" name="B3">
            <property name="sizePolicy">
-            <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
              <horstretch>0</horstretch>
              <verstretch>0</verstretch>
             </sizepolicy>
            </property>
            <property name="minimumSize">
             <size>
-             <width>0</width>
-             <height>0</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="maximumSize">
             <size>
-             <width>2342</width>
-             <height>2352</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="baseSize">
@@ -2584,21 +2584,21 @@
          <item row="6" column="12">
           <widget class="QClickableLabel" name="F2">
            <property name="sizePolicy">
-            <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
              <horstretch>0</horstretch>
              <verstretch>0</verstretch>
             </sizepolicy>
            </property>
            <property name="minimumSize">
             <size>
-             <width>0</width>
-             <height>0</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="maximumSize">
             <size>
-             <width>2342</width>
-             <height>2352</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="baseSize">
@@ -2626,21 +2626,21 @@
          <item row="5" column="10">
           <widget class="QClickableLabel" name="D3">
            <property name="sizePolicy">
-            <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
              <horstretch>0</horstretch>
              <verstretch>0</verstretch>
             </sizepolicy>
            </property>
            <property name="minimumSize">
             <size>
-             <width>0</width>
-             <height>0</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="maximumSize">
             <size>
-             <width>2342</width>
-             <height>2352</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="baseSize">
@@ -2669,21 +2669,21 @@
          <item row="3" column="11">
           <widget class="QClickableLabel" name="E5">
            <property name="sizePolicy">
-            <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
              <horstretch>0</horstretch>
              <verstretch>0</verstretch>
             </sizepolicy>
            </property>
            <property name="minimumSize">
             <size>
-             <width>0</width>
-             <height>0</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="maximumSize">
             <size>
-             <width>2342</width>
-             <height>2352</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="baseSize">
@@ -2711,21 +2711,21 @@
          <item row="4" column="10">
           <widget class="QClickableLabel" name="D4">
            <property name="sizePolicy">
-            <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
              <horstretch>0</horstretch>
              <verstretch>0</verstretch>
             </sizepolicy>
            </property>
            <property name="minimumSize">
             <size>
-             <width>0</width>
-             <height>0</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="maximumSize">
             <size>
-             <width>2342</width>
-             <height>2352</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="baseSize">
@@ -2753,21 +2753,21 @@
          <item row="4" column="11">
           <widget class="QClickableLabel" name="E4">
            <property name="sizePolicy">
-            <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
              <horstretch>0</horstretch>
              <verstretch>0</verstretch>
             </sizepolicy>
            </property>
            <property name="minimumSize">
             <size>
-             <width>0</width>
-             <height>0</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="maximumSize">
             <size>
-             <width>2342</width>
-             <height>2352</height>
+             <width>40</width>
+             <height>40</height>
             </size>
            </property>
            <property name="baseSize">
