@@ -7,6 +7,15 @@ BoardState::BoardState(Color player1Color)
     placePieces();
 }
 
+bool BoardState::isGameOver(Color color) {
+    for (Piece piece : pieces) {
+        if (piece.getType()==KING && piece.getColor()==color) {
+            return false;
+        }
+    }
+    return true;
+}
+
 std::vector<Position> BoardState::getLegalMoves(Position position) {
     uint8_t piece_i = findPieceByPosition(position);
     std::vector<Position> legalMoves;
@@ -219,12 +228,14 @@ std::vector<Position> BoardState::getQueenMoves(uint8_t piece_i) {
 
 std::vector<Position> BoardState::getKingMoves(uint8_t piece_i) {
     std::vector<Position> moves;
+
     Piece piece = pieces.at(piece_i);
     Position position = piece.getPosition();
-    for (uint8_t i = -1; i < 2; i++) {
-        for (uint8_t j = -1; j < 2; j++) {
-            Position observedPosition = Position(position.x+i, position.x+j);
-             if (!isPositionOutOfBounds(observedPosition) && !isActualPlayersPiece(piece.getColor(), observedPosition)) {
+    for (int8_t i = -1; i < 2; i++) {
+        for (int8_t j = -1; j < 2; j++) {
+            Position observedPosition = Position(position.x+i, position.y+j);
+             if (!isPositionOutOfBounds(observedPosition)
+                     && !isCurrentPlayersPiece(piece.getColor(), observedPosition)) {
                  moves.push_back(observedPosition);
              }
         }
@@ -238,7 +249,7 @@ bool BoardState::isPositionOccupied(Position position) {
     return findPieceByPosition(position) < 50;
 }
 
-bool BoardState::isActualPlayersPiece(Color color, Position position) {
+bool BoardState::isCurrentPlayersPiece(Color color, Position position) {
     uint8_t i = findPieceByPosition(position);
     return i < 50 && pieces.at(i).getColor() == color;
 };

@@ -35,6 +35,7 @@ private:
     void erasePiece(Position position);
     void drawPossibleMoves();
     void erasePossibleMoves();
+    void endGame(Color color);
 
 private slots:
     void SquarePressed();

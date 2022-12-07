@@ -77,6 +77,9 @@ void MainWindow::movePiece(Position from, Position to) {
     drawPiece(piece);
     erasePiece(from);
     currentPlayersTurn = currentPlayersTurn == WHITE ? BLACK : WHITE;
+    if (boardState->isGameOver(currentPlayersTurn)) {
+        endGame(currentPlayersTurn);
+    }
 }
 
 void MainWindow::drawPiece(Piece piece) {
@@ -155,7 +158,7 @@ void MainWindow::SquarePressed() {
             isClicked = false;
             possibleMoves.clear();
         } else {
-            if (boardState->isActualPlayersPiece(currentPlayersTurn, thisPosition)) {
+            if (boardState->isCurrentPlayersPiece(currentPlayersTurn, thisPosition)) {
                 erasePossibleMoves();
                 possibleMoves.clear();
                 clickedPiecePosition = thisPosition;
@@ -167,11 +170,21 @@ void MainWindow::SquarePressed() {
                 possibleMoves.clear();
             }
         }
-    } else if (boardState->isActualPlayersPiece(currentPlayersTurn, thisPosition)) {
+    } else if (boardState->isCurrentPlayersPiece(currentPlayersTurn, thisPosition)) {
         isClicked = true;
         clickedPiecePosition = thisPosition;
         possibleMoves = boardState->getLegalMoves(thisPosition);
         qInfo() << possibleMoves.size();
         drawPossibleMoves();
+    }
+
+
+}
+
+void MainWindow::endGame(Color color) {
+    for (uint8_t i = 0; i < 8; i++) {
+        for (uint8_t j = 0; j < 8; j++) {
+            board[i][j]->disconnect();
+        }
     }
 }
