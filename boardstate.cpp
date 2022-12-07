@@ -84,12 +84,12 @@ std::vector<Position> BoardState::getPawnMoves(uint8_t piece_i) {
     Position observedPosition = Position(position.x, position.y + direction);
     if (!isPositionOccupied(observedPosition)) {
         moves.push_back(observedPosition);
+        observedPosition = Position(position.x, position.y + direction*2);
     }
-    // asdawdasdwadsadawd
-    Position observedPosition2 = Position(position.x, position.y + direction*2);
-    if (!piece.wasMoved()) {
-        moves.push_back(observedPosition2);
+    if (!isPositionOccupied(observedPosition) && !piece.wasMoved()) {
+        moves.push_back(observedPosition);
     }
+
 
     return moves;
 }
