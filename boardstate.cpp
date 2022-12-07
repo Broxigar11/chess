@@ -1,15 +1,15 @@
 #include "boardstate.h"
 #include <vector>
 
-std::vector<Piece> pieces;
-
-Color player1Color;
-
 BoardState::BoardState(Color player1Color)
 {
     this->player1Color = player1Color;
     placePieces();
 }
+
+//std::vector<Piece> getPieces(){
+//    return pieces
+//};
 
 
 std::vector<Position> BoardState::getLegalMoves(Position position) {
@@ -69,6 +69,7 @@ std::vector<Position> BoardState::getPawnMoves(uint8_t piece_i) {
     if (!isPositionOccupied(observedPosition)) {
         moves.push_back(observedPosition);
     }
+    // asdawdasdwadsadawd
     Position observedPosition2 = Position(position.x, position.y + direction*2);
     if (!piece.wasMoved()) {
         moves.push_back(observedPosition2);
@@ -219,6 +220,11 @@ bool BoardState::isPositionOccupied(Position position) {
     return findPieceByPosition(position) < 8;
 }
 
+bool BoardState::isActualPlayersPiece(Color color, Position position) {
+    uint8_t i = findPieceByPosition(position);
+    return (i < 8) && (pieces.at(i).getColor() == color);
+};
+
 bool BoardState::isPieceAtPositionCapturableWithPiece(Piece piece, Position position) {
     return piece.getColor() != pieces.at(findPieceByPosition(position)).getColor();
 };
@@ -230,7 +236,7 @@ uint8_t BoardState::findPieceByPosition(Position position) {
         }
     }
 
-    return 200;
+    return 10;
 };
 
 

@@ -74,7 +74,7 @@
           <number>0</number>
          </property>
          <item row="2" column="7">
-          <widget class="QLabel" name="A6">
+          <widget class="QClickableLabel" name="A6">
            <property name="sizePolicy">
             <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
              <horstretch>0</horstretch>
@@ -117,7 +117,7 @@
           </widget>
          </item>
          <item row="3" column="7">
-          <widget class="QLabel" name="A5">
+          <widget class="QClickableLabel" name="A5">
            <property name="sizePolicy">
             <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
              <horstretch>0</horstretch>
@@ -159,7 +159,7 @@
           </widget>
          </item>
          <item row="3" column="10">
-          <widget class="QLabel" name="D5">
+          <widget class="QClickableLabel" name="D5">
            <property name="sizePolicy">
             <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
              <horstretch>0</horstretch>
@@ -202,7 +202,7 @@
           </widget>
          </item>
          <item row="2" column="12">
-          <widget class="QLabel" name="F6">
+          <widget class="QClickableLabel" name="F6">
            <property name="sizePolicy">
             <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
              <horstretch>0</horstretch>
@@ -244,7 +244,7 @@
           </widget>
          </item>
          <item row="4" column="9">
-          <widget class="QLabel" name="C4">
+          <widget class="QClickableLabel" name="C4">
            <property name="sizePolicy">
             <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
              <horstretch>0</horstretch>
@@ -287,7 +287,7 @@
           </widget>
          </item>
          <item row="4" column="13">
-          <widget class="QLabel" name="G4">
+          <widget class="QClickableLabel" name="G4">
            <property name="sizePolicy">
             <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
              <horstretch>0</horstretch>
@@ -330,7 +330,7 @@
           </widget>
          </item>
          <item row="6" column="7">
-          <widget class="QLabel" name="A2">
+          <widget class="QClickableLabel" name="A2">
            <property name="sizePolicy">
             <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
              <horstretch>0</horstretch>
@@ -373,7 +373,7 @@
           </widget>
          </item>
          <item row="2" column="8">
-          <widget class="QLabel" name="B6">
+          <widget class="QClickableLabel" name="B6">
            <property name="sizePolicy">
             <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
              <horstretch>0</horstretch>
@@ -415,7 +415,7 @@
           </widget>
          </item>
          <item row="0" column="11">
-          <widget class="QLabel" name="E8">
+          <widget class="QClickableLabel" name="E8">
            <property name="sizePolicy">
             <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
              <horstretch>0</horstretch>
@@ -458,7 +458,7 @@
           </widget>
          </item>
          <item row="2" column="9">
-          <widget class="QLabel" name="C6">
+          <widget class="QClickableLabel" name="C6">
            <property name="sizePolicy">
             <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
              <horstretch>0</horstretch>
@@ -501,7 +501,7 @@
           </widget>
          </item>
          <item row="0" column="12">
-          <widget class="QLabel" name="F8">
+          <widget class="QClickableLabel" name="F8">
            <property name="sizePolicy">
             <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
              <horstretch>0</horstretch>
@@ -543,7 +543,7 @@
           </widget>
          </item>
          <item row="3" column="12">
-          <widget class="QLabel" name="F5">
+          <widget class="QClickableLabel" name="F5">
            <property name="sizePolicy">
             <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
              <horstretch>0</horstretch>
@@ -586,7 +586,7 @@
           </widget>
          </item>
          <item row="7" column="14">
-          <widget class="QLabel" name="H1">
+          <widget class="QClickableLabel" name="H1">
            <property name="sizePolicy">
             <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
              <horstretch>0</horstretch>
@@ -629,7 +629,7 @@
           </widget>
          </item>
          <item row="1" column="12">
-          <widget class="QLabel" name="F7">
+          <widget class="QClickableLabel" name="F7">
            <property name="sizePolicy">
             <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
              <horstretch>0</horstretch>
@@ -672,7 +672,7 @@
           </widget>
          </item>
          <item row="0" column="14">
-          <widget class="QLabel" name="H8">
+          <widget class="QClickableLabel" name="H8">
            <property name="sizePolicy">
             <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
              <horstretch>0</horstretch>
@@ -714,7 +714,7 @@
           </widget>
          </item>
          <item row="2" column="14">
-          <widget class="QLabel" name="H6">
+          <widget class="QClickableLabel" name="H6">
            <property name="sizePolicy">
             <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
              <horstretch>0</horstretch>
@@ -756,7 +756,7 @@
           </widget>
          </item>
          <item row="3" column="13">
-          <widget class="QLabel" name="G5">
+          <widget class="QClickableLabel" name="G5">
            <property name="sizePolicy">
             <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
              <horstretch>0</horstretch>
@@ -798,7 +798,7 @@
           </widget>
          </item>
          <item row="0" column="13">
-          <widget class="QLabel" name="G8">
+          <widget class="QClickableLabel" name="G8">
            <property name="sizePolicy">
             <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
              <horstretch>0</horstretch>
@@ -841,7 +841,7 @@
           </widget>
          </item>
          <item row="4" column="12">
-          <widget class="QLabel" name="F4">
+          <widget class="QClickableLabel" name="F4">
            <property name="sizePolicy">
             <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
              <horstretch>0</horstretch>
@@ -883,7 +883,7 @@
           </widget>
          </item>
          <item row="5" column="14">
-          <widget class="QLabel" name="H3">
+          <widget class="QClickableLabel" name="H3">
            <property name="sizePolicy">
             <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
              <horstretch>0</horstretch>
@@ -926,7 +926,7 @@
           </widget>
          </item>
          <item row="5" column="9">
-          <widget class="QLabel" name="C3">
+          <widget class="QClickableLabel" name="C3">
            <property name="sizePolicy">
             <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
              <horstretch>0</horstretch>
@@ -968,7 +968,7 @@
           </widget>
          </item>
          <item row="1" column="10">
-          <widget class="QLabel" name="D7">
+          <widget class="QClickableLabel" name="D7">
            <property name="sizePolicy">
             <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
              <horstretch>0</horstretch>
@@ -1011,7 +1011,7 @@
           </widget>
          </item>
          <item row="5" column="7">
-          <widget class="QLabel" name="A3">
+          <widget class="QClickableLabel" name="A3">
            <property name="sizePolicy">
             <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
              <horstretch>0</horstretch>
@@ -1053,7 +1053,7 @@
           </widget>
          </item>
          <item row="2" column="11">
-          <widget class="QLabel" name="E6">
+          <widget class="QClickableLabel" name="E6">
            <property name="sizePolicy">
             <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
              <horstretch>0</horstretch>
@@ -1096,7 +1096,7 @@
           </widget>
          </item>
          <item row="2" column="10">
-          <widget class="QLabel" name="D6">
+          <widget class="QClickableLabel" name="D6">
            <property name="sizePolicy">
             <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
              <horstretch>0</horstretch>
@@ -1138,7 +1138,7 @@
           </widget>
          </item>
          <item row="4" column="8">
-          <widget class="QLabel" name="B4">
+          <widget class="QClickableLabel" name="B4">
            <property name="sizePolicy">
             <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
              <horstretch>0</horstretch>
@@ -1180,7 +1180,7 @@
           </widget>
          </item>
          <item row="3" column="8">
-          <widget class="QLabel" name="B5">
+          <widget class="QClickableLabel" name="B5">
            <property name="sizePolicy">
             <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
              <horstretch>0</horstretch>
@@ -1223,7 +1223,7 @@
           </widget>
          </item>
          <item row="7" column="7">
-          <widget class="QLabel" name="A1">
+          <widget class="QClickableLabel" name="A1">
            <property name="sizePolicy">
             <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
              <horstretch>0</horstretch>
@@ -1265,7 +1265,7 @@
           </widget>
          </item>
          <item row="5" column="12">
-          <widget class="QLabel" name="F3">
+          <widget class="QClickableLabel" name="F3">
            <property name="sizePolicy">
             <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
              <horstretch>0</horstretch>
@@ -1308,7 +1308,7 @@
           </widget>
          </item>
          <item row="3" column="14">
-          <widget class="QLabel" name="H5">
+          <widget class="QClickableLabel" name="H5">
            <property name="sizePolicy">
             <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
              <horstretch>0</horstretch>
@@ -1351,7 +1351,7 @@
           </widget>
          </item>
          <item row="3" column="9">
-          <widget class="QLabel" name="C5">
+          <widget class="QClickableLabel" name="C5">
            <property name="sizePolicy">
             <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
              <horstretch>0</horstretch>
@@ -1393,7 +1393,7 @@
           </widget>
          </item>
          <item row="1" column="14">
-          <widget class="QLabel" name="H7">
+          <widget class="QClickableLabel" name="H7">
            <property name="sizePolicy">
             <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
              <horstretch>0</horstretch>
@@ -1436,7 +1436,7 @@
           </widget>
          </item>
          <item row="0" column="8">
-          <widget class="QLabel" name="B8">
+          <widget class="QClickableLabel" name="B8">
            <property name="sizePolicy">
             <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
              <horstretch>0</horstretch>
@@ -1478,7 +1478,7 @@
           </widget>
          </item>
          <item row="1" column="7">
-          <widget class="QLabel" name="A7">
+          <widget class="QClickableLabel" name="A7">
            <property name="sizePolicy">
             <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
              <horstretch>0</horstretch>
@@ -1520,7 +1520,7 @@
           </widget>
          </item>
          <item row="0" column="7">
-          <widget class="QLabel" name="A8">
+          <widget class="QClickableLabel" name="A8">
            <property name="sizePolicy">
             <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
              <horstretch>0</horstretch>
@@ -1563,7 +1563,7 @@
           </widget>
          </item>
          <item row="0" column="10">
-          <widget class="QLabel" name="D8">
+          <widget class="QClickableLabel" name="D8">
            <property name="sizePolicy">
             <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
              <horstretch>0</horstretch>
@@ -1605,7 +1605,7 @@
           </widget>
          </item>
          <item row="5" column="11">
-          <widget class="QLabel" name="E3">
+          <widget class="QClickableLabel" name="E3">
            <property name="sizePolicy">
             <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
              <horstretch>0</horstretch>
@@ -1647,7 +1647,7 @@
           </widget>
          </item>
          <item row="7" column="10">
-          <widget class="QLabel" name="D1">
+          <widget class="QClickableLabel" name="D1">
            <property name="sizePolicy">
             <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
              <horstretch>0</horstretch>
@@ -1690,7 +1690,7 @@
           </widget>
          </item>
          <item row="1" column="11">
-          <widget class="QLabel" name="E7">
+          <widget class="QClickableLabel" name="E7">
            <property name="sizePolicy">
             <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
              <horstretch>0</horstretch>
@@ -1732,7 +1732,7 @@
           </widget>
          </item>
          <item row="7" column="11">
-          <widget class="QLabel" name="E1">
+          <widget class="QClickableLabel" name="E1">
            <property name="sizePolicy">
             <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
              <horstretch>0</horstretch>
@@ -1774,7 +1774,7 @@
           </widget>
          </item>
          <item row="4" column="14">
-          <widget class="QLabel" name="H4">
+          <widget class="QClickableLabel" name="H4">
            <property name="sizePolicy">
             <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
              <horstretch>0</horstretch>
@@ -1816,7 +1816,7 @@
           </widget>
          </item>
          <item row="1" column="8">
-          <widget class="QLabel" name="B7">
+          <widget class="QClickableLabel" name="B7">
            <property name="sizePolicy">
             <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
              <horstretch>0</horstretch>
@@ -1859,7 +1859,7 @@
           </widget>
          </item>
          <item row="6" column="11">
-          <widget class="QLabel" name="E2">
+          <widget class="QClickableLabel" name="E2">
            <property name="sizePolicy">
             <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
              <horstretch>0</horstretch>
@@ -1902,7 +1902,7 @@
           </widget>
          </item>
          <item row="7" column="12">
-          <widget class="QLabel" name="F1">
+          <widget class="QClickableLabel" name="F1">
            <property name="sizePolicy">
             <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
              <horstretch>0</horstretch>
@@ -1945,7 +1945,7 @@
           </widget>
          </item>
          <item row="7" column="13">
-          <widget class="QLabel" name="G1">
+          <widget class="QClickableLabel" name="G1">
            <property name="sizePolicy">
             <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
              <horstretch>0</horstretch>
@@ -1987,7 +1987,7 @@
           </widget>
          </item>
          <item row="1" column="9">
-          <widget class="QLabel" name="C7">
+          <widget class="QClickableLabel" name="C7">
            <property name="sizePolicy">
             <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
              <horstretch>0</horstretch>
@@ -2029,7 +2029,7 @@
           </widget>
          </item>
          <item row="0" column="9">
-          <widget class="QLabel" name="C8">
+          <widget class="QClickableLabel" name="C8">
            <property name="sizePolicy">
             <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
              <horstretch>0</horstretch>
@@ -2072,7 +2072,7 @@
           </widget>
          </item>
          <item row="7" column="9">
-          <widget class="QLabel" name="C1">
+          <widget class="QClickableLabel" name="C1">
            <property name="sizePolicy">
             <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
              <horstretch>0</horstretch>
@@ -2114,7 +2114,7 @@
           </widget>
          </item>
          <item row="2" column="13">
-          <widget class="QLabel" name="G6">
+          <widget class="QClickableLabel" name="G6">
            <property name="sizePolicy">
             <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
              <horstretch>0</horstretch>
@@ -2157,7 +2157,7 @@
           </widget>
          </item>
          <item row="6" column="8">
-          <widget class="QLabel" name="B2">
+          <widget class="QClickableLabel" name="B2">
            <property name="sizePolicy">
             <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
              <horstretch>0</horstretch>
@@ -2199,7 +2199,7 @@
           </widget>
          </item>
          <item row="5" column="13">
-          <widget class="QLabel" name="G3">
+          <widget class="QClickableLabel" name="G3">
            <property name="sizePolicy">
             <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
              <horstretch>0</horstretch>
@@ -2241,7 +2241,7 @@
           </widget>
          </item>
          <item row="1" column="13">
-          <widget class="QLabel" name="G7">
+          <widget class="QClickableLabel" name="G7">
            <property name="sizePolicy">
             <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
              <horstretch>0</horstretch>
@@ -2283,7 +2283,7 @@
           </widget>
          </item>
          <item row="4" column="7">
-          <widget class="QLabel" name="A4">
+          <widget class="QClickableLabel" name="A4">
            <property name="sizePolicy">
             <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
              <horstretch>0</horstretch>
@@ -2326,7 +2326,7 @@
           </widget>
          </item>
          <item row="6" column="14">
-          <widget class="QLabel" name="H2">
+          <widget class="QClickableLabel" name="H2">
            <property name="sizePolicy">
             <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
              <horstretch>0</horstretch>
@@ -2368,7 +2368,7 @@
           </widget>
          </item>
          <item row="6" column="13">
-          <widget class="QLabel" name="G2">
+          <widget class="QClickableLabel" name="G2">
            <property name="sizePolicy">
             <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
              <horstretch>0</horstretch>
@@ -2411,7 +2411,7 @@
           </widget>
          </item>
          <item row="7" column="8">
-          <widget class="QLabel" name="B1">
+          <widget class="QClickableLabel" name="B1">
            <property name="sizePolicy">
             <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
              <horstretch>0</horstretch>
@@ -2454,7 +2454,7 @@
           </widget>
          </item>
          <item row="6" column="9">
-          <widget class="QLabel" name="C2">
+          <widget class="QClickableLabel" name="C2">
            <property name="sizePolicy">
             <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
              <horstretch>0</horstretch>
@@ -2497,7 +2497,7 @@
           </widget>
          </item>
          <item row="6" column="10">
-          <widget class="QLabel" name="D2">
+          <widget class="QClickableLabel" name="D2">
            <property name="sizePolicy">
             <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
              <horstretch>0</horstretch>
@@ -2539,7 +2539,7 @@
           </widget>
          </item>
          <item row="5" column="8">
-          <widget class="QLabel" name="B3">
+          <widget class="QClickableLabel" name="B3">
            <property name="sizePolicy">
             <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
              <horstretch>0</horstretch>
@@ -2582,7 +2582,7 @@
           </widget>
          </item>
          <item row="6" column="12">
-          <widget class="QLabel" name="F2">
+          <widget class="QClickableLabel" name="F2">
            <property name="sizePolicy">
             <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
              <horstretch>0</horstretch>
@@ -2624,7 +2624,7 @@
           </widget>
          </item>
          <item row="5" column="10">
-          <widget class="QLabel" name="D3">
+          <widget class="QClickableLabel" name="D3">
            <property name="sizePolicy">
             <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
              <horstretch>0</horstretch>
@@ -2667,7 +2667,7 @@
           </widget>
          </item>
          <item row="3" column="11">
-          <widget class="QLabel" name="E5">
+          <widget class="QClickableLabel" name="E5">
            <property name="sizePolicy">
             <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
              <horstretch>0</horstretch>
@@ -2709,7 +2709,7 @@
           </widget>
          </item>
          <item row="4" column="10">
-          <widget class="QLabel" name="D4">
+          <widget class="QClickableLabel" name="D4">
            <property name="sizePolicy">
             <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
              <horstretch>0</horstretch>
@@ -2751,7 +2751,7 @@
           </widget>
          </item>
          <item row="4" column="11">
-          <widget class="QLabel" name="E4">
+          <widget class="QClickableLabel" name="E4">
            <property name="sizePolicy">
             <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
              <horstretch>0</horstretch>
@@ -2823,6 +2823,13 @@
    </attribute>
   </widget>
  </widget>
+ <customwidgets>
+  <customwidget>
+   <class>QClickableLabel</class>
+   <extends>QLabel</extends>
+   <header location="global">qclickablelabel.h</header>
+  </customwidget>
+ </customwidgets>
  <resources/>
  <connections/>
 </ui>

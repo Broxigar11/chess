@@ -10,6 +10,9 @@ public:
     BoardState(Color player1Color);
 
     std::vector<Position> getLegalMoves(Position position);
+    bool isPositionOccupied(Position position);
+    bool isActualPlayersPiece(Color color, Position position);
+    std::vector<Piece> getPieces();
 
 private:
     std::vector<Piece> pieces;
@@ -23,8 +26,6 @@ private:
     std::vector<Position> getKingMoves(uint8_t);
 
     int8_t getDirection(Color color);
-
-    bool isPositionOccupied(Position position);
 
     bool isPieceAtPositionCapturableWithPiece(Piece piece, Position position);
 

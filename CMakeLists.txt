@@ -23,6 +23,8 @@ set(PROJECT_SOURCES
         piece.cpp
         boardstate.h
         boardstate.cpp
+        qclickablelabel.h
+        qclickablelabel.cpp
         resources.qrc
 )
 
